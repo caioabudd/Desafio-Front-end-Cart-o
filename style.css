@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.barraLateral {
+    height: 1100px;
+    width: 600px;
+    background-color: #682dc9;
+
+}
+
+.cartaoFrente {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 280px;
+    height: 250px;
+    width: 450px;
+    background-color: rgb(192, 196, 218);
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #E65763, #34073D);
+
+}
+
+.cartaoTras{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 360px;
+    height: 250px;
+    width: 450px;
+    background-color: rgb(192, 196, 218);
+    border-radius: 5px;
+    
+}
+
+.form {
+    position: absolute;
+    margin-left: 1200px;
+    justify-content: first baseline;
+    display: flex;
+    margin-top: 400px;
+
+
+}
+
+.nomePessoa{
+    position: absolute;
+    margin-top: 210px; 
+    margin-left: 20px;
+    color: white;
+    
+}
+
+.numero {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 20px;
+    font-size: 40px;
+    color: white;
+
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 120px;
+    
+}
+
+.item {
+    margin-top: 10px;
+    
+}
+
+.itemCvc {
+    margin-top: 10px;
+    
+    
+}
+
+.itemCvc input {
+    
+    width: 50px;
+    height: 25px;
+    padding-bottom: 10px;
+   
+    
+}
+
+.item input{
+    margin-top: 10px;
+    width: 250px;
+    height: 35px;
+    background-color: white;
+}
+
+.itemSem input{
+    margin-top: 10px;
+    width: 250px;
+    height: 35px;
+    background-color: #e40b1d;
+   
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: blueviolet;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    transition: 0s;
+}
+
+.btn:hover {
+    margin-top: 10px;
+    background-color: rgb(13, 223, 30);
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.data{
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 210px;
+    color: white;
+}
+
+.barraPreta {
+    background-color: black;
+    width: 450px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+
+
+}
+
+.bolinha {
+    left: 15px;
+    top: 15px;
+    position: absolute;
+    background-color: #f1eeee;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+
+}
+
+.bolinha2 {
+    left: 85px;
+    top: 30px;
+    position: absolute;
+    background-color: #f1eeee;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+
+}
+
+.barraCinza{
+    left: 74px;
+    width: 300px;
+    height: 35px;
+    background-color: rgb(157, 157, 165);
+    position: absolute;
+    top: 95px;
+    border-radius: 5px;
+}
+
+.cvc{
+    position: absolute;
+    left: 320px;
+    top: 104px;
+    color: white;
+    
+}

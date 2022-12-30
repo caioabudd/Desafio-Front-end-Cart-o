@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site</title>
+</head>
+<body>
+
+    <section class="barraLateral">
+        <div class="form">
+            <form id="form"action="">
+                    <div class="item required">
+                        <h5>Nome: </h5>
+                        <input type="text" name="nome "id="nome" placeholder="Seu nome">
+                    </div >
+                    <div class="item required">
+                        <h5>Número do cartão: </h5>
+                         <input type="text" id="numero" placeholder="0000 0000 0000 0000" maxlength="19">
+                    </div>
+                    <div class="item required">
+                        <h5>Data de Validade: </h5>
+                        <input type="text" name="data" id="data" placeholder="MM/AA" maxlength="5">
+                    </div>
+                    <div class="itemCvc required">
+                        <h5>CVC </h5>
+                        <input type="text" name="cvc" id="cvc" placeholder="CVC" maxlength="3">
+                    </div>
+                <input class="btn" type="submit" onclick="imprimir()">
+            </form>
+        </div>
+    <div class="cartaoFrente">
+        <div>
+            <div class="bolinha"></div>
+            <div class="bolinha2"></div>
+            <h1 class="numero" id="recebe_valor_numero">0000 0000 0000 0000</h1>
+            <h4 class="nomePessoa"> <span id="recebe_valor_nome">Seu nome</span></h4>
+            <span class="data" id="recebe_valor_data">00/00</span>
+           
+        </div>
+    </div>
+    <div class="cartaoTras">
+        <div class="barraPreta"></div>
+        <div class="barraCinza"></div>
+        <span id="recebe_valor_cvc" class="cvc">CVC</span>
+
+    </div>
+    </section>
+    
+    
+        
+   
+
+    <script src="javascript.js"></script>
+</body>
+</html>
