@@ -178,3 +178,46 @@
     color: white;
     
 }
+
+@media (max-width: 1280px) {
+
+    .barraLateral {
+        height: 845px;
+        width: 500px;
+        background-color: #682dc9;
+    
+    }
+
+    .form {
+        position: absolute;
+        margin-left: 1000px;
+        justify-content: first baseline;
+        display: flex;
+        margin-top: 400px;
+    
+    }
+
+    .cartaoFrente {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 180px;
+        height: 250px;
+        width: 450px;
+        background-color: rgb(192, 196, 218);
+        border-radius: 5px;
+        background-image: linear-gradient(to right, #E65763, #34073D);
+    
+    }
+    
+    .cartaoTras{
+        position: absolute;
+        margin-top: 500px;
+        margin-left: 280px;
+        height: 250px;
+        width: 450px;
+        background-color: rgb(192, 196, 218);
+        border-radius: 5px;
+        
+    }
+
+}
